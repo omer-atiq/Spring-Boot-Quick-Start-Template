@@ -21,13 +21,4 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
-
-//	@Bean
-//	public CommandLineRunner runJob(JobLauncher jobLauncher, Job importUserJob) {
-//		return args -> {
-//			System.out.println(">>> FORCING JOB LAUNCH");
-//			jobLauncher.run(importUserJob, new JobParameters());
-//		};
-//	}
-
 }
